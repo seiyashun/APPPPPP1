@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản Lý</string>
+    <string name="txtID">Tài Khoản</string>
+    <string name="txtPASS">Mật Khẩu</string>
+    <string name="btnDangNhap">Đăng Nhập</string>
+    <string name="txtThoat">Đăng Xuất</string>
+    <string name="action_settings">Bản Đồ</string>
+    <string name="txtADDPBID">Tên Phòng Ban</string>
+    <string name="txtADDPBCODE">Mã Phòng Ban</string>
+    <string name="btnADDPB">THÊM</string>
+    <string name="titPB">Danh Sách Sinh Viên</string>
+    <string name="titADDPB">Thêm Phòng Ban</string>
+    <string name="titEDITPB">Sửa Phòng Ban</string>
+    <string name="btnedtPB">Sửa</string>
+    <string name="btnDELPB">Xóa</string>
+    <string name="about">Giới Thiệu</string>
+    <string name="exitttt">Thoát</string>
+    <string name="btnPic">Chụp Hình</string>
+    <string name="btnSPic">Chọn Hình</string>
+
+    <string name="txtNameSV">Họ Tên</string>
+    <string name="txtSdtSV">Số Điện Thoại</string>
+    <string name="txtDiaChiSV">Địa Chỉ</string>
+    <string name="txtMaSv">MSSV</string>
+    <string name="idwarning">ID không hợp lệ</string>
+
+    <string name="warning">Cảnh Báo</string>
+    <string name="logsuc">Đăng Nhập Thành Công</string>
+    <string name="mess">Sai Tài Khoản hoặc Mật Khẩu</string>
+
+    <string name="idx2">Trùng mã , xin thử lại..</string>
+
+    <string name="nullll">Xin nhập hình đại diện</string>
+    <string name="addsc">Thành Công</string>
+
+    <string name="stu">Đại Học Công Nghệ Sài Gòn.</string>
+
+
+
+</resources>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Management</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Maps</string>
+
+    <string name="txtID">ID</string>
+    <string name="txtPASS">PASSWORD</string>
+    <string name="btnDangNhap">LOGIN</string>
+    <string name="txtThoat">Log Out</string>
+    <string name="txtADDPBID">Name</string>
+    <string name="txtADDPBCODE">Code</string>
+    <string name="btnADDPB">ADD</string>
+    <string name="titPB">Students List</string>
+    <string name="titADDPB">Add Department</string>
+    <string name="titEDITPB">Edit Department</string>
+    <string name="btnedtPB">Edit</string>
+    <string name="btnDELPB">Delete</string>
+    <string name="about">About</string>
+    <string name="exitttt">Exit</string>
+    <string name="btnPic">Take Picture</string>
+    <string name="btnSPic">Choose Picture</string>
+    <string name="txtNameSV">Name</string>
+    <string name="txtSdtSV">Mobile Phone</string>
+    <string name="txtDiaChiSV">Address</string>
+    <string name="txtMaSv">Code</string>
+    <string name="map_api">AIzaSyDdFYr3Mr5osWbmno6rZ1kI66C4xAwE0dw</string>
+
+
+    <string name="warning">Warning</string>
+    <string name="logsuc">Login Successful</string>
+    <string name="mess">Incorrect ID or PASSWORD</string>
+
+    <string name="idx2">Duplicate id,please try again</string>
+
+    <string name="nullll">Choose picture, please!!!</string>
+    <string name="addsc">Success</string>
+
+    <string name="stu">Sai gon Technology University</string>
+
+    <string name="idwarning">ID is invalid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+</resources>
