@@ -60,6 +60,7 @@ public class sinhvienActivity2 extends AppCompatActivity
 
             }
         });
+
         getdata();
 
         anhxa();
@@ -81,6 +82,7 @@ public class sinhvienActivity2 extends AppCompatActivity
 
 
         finish();
+        super.onBackPressed();
     }
     private void getdata() {
         Intent intent = getIntent();

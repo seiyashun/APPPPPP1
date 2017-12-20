@@ -1,5 +1,6 @@
 package com.tangtuongco.apppppp.model;
 
+import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -19,16 +20,8 @@ public class sinhvien implements Serializable {
     private String diachi;
     private String sdt;
 
-    public sinhvien(String masv, String tensv, byte[] avatar, String diachi, String sdt) {
-        this.masv = masv;
-        this.tensv = tensv;
-        this.avatar = avatar;
-        this.diachi = diachi;
-        this.sdt = sdt;
-    }
 
     public String getMasv() {
-
         return masv;
     }
 
@@ -70,13 +63,14 @@ public class sinhvien implements Serializable {
 
     public sinhvien() {
 
-
-
-
     }
 
+    public sinhvien(String masv, String tensv, byte[] avatar, String diachi, String sdt) {
 
-
-
-
+        this.masv = masv;
+        this.tensv = tensv;
+        this.avatar = avatar;
+        this.diachi = diachi;
+        this.sdt = sdt;
+    }
 }

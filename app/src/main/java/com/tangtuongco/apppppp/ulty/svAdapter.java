@@ -78,8 +78,8 @@ public class svAdapter extends BaseAdapter{
             viewHolder.txtID.setText(sinhvien1.getMasv());
             Bitmap bmAva = BitmapFactory.decodeByteArray(sinhvien1.getAvatar(),0,sinhvien1.getAvatar().length);
             //viewHolder.imgAva.setImageBitmap(bmAva);
-           // viewHolder.imgAva.setImageBitmap(Bitmap.createScaledBitmap(bmAva,120,120,false));
-          
+           viewHolder.imgAva.setImageBitmap(Bitmap.createScaledBitmap(bmAva,120,120,false));
+
 
 
 

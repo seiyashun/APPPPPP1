@@ -32,4 +32,6 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:1.2.1'
     implementation 'com.google.android.gms:play-services-maps:11.6.2'
     compile 'com.squareup.picasso:picasso:2.5.2'
+    
+
 }

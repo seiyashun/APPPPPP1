@@ -122,6 +122,21 @@ public class AddSVActivity extends AppCompatActivity {
         byte[] byteArray = stream.toByteArray();
         return byteArray;
     }
+    public Bitmap getResizedBitmap(Bitmap image, int maxSize) {
+        int width = image.getWidth();
+        int height = image.getHeight();
+
+        float bitmapRatio = (float) width / (float) height;
+        if (bitmapRatio > 1) {
+            width = maxSize;
+            height = (int) (width / bitmapRatio);
+        } else {
+            height = maxSize;
+            width = (int) (height * bitmapRatio);
+        }
+
+        return Bitmap.createScaledBitmap(image, width, height, true);
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(resultCode==RESULT_OK)
@@ -136,18 +151,17 @@ public class AddSVActivity extends AppCompatActivity {
                     InputStream is = null;
                     is = getContentResolver().openInputStream(imageUri);
                     Bitmap bitmap = BitmapFactory.decodeStream(is);
-                    imgAva.setImageBitmap(bitmap);
+                    imgAva.setImageBitmap(getResizedBitmap(bitmap,300));
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
-
-                    //Picasso.with(getApplicationContext()).load(imageUri).into(imgAva);
 
             }
             else if (requestCode==REQUEST_TAKE_PIC)
             {
                 Bitmap bitmap = (Bitmap) data.getExtras().get("data");
                 imgAva.setImageBitmap(bitmap);
+
 
             }
         }
